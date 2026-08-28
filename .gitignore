@@ -1,0 +1,13 @@
+# Build
+.build/
+build/
+.old/
+
+# Directorys
+__cmake_systeminformation/
+.cache/
+.zed/
+
+# Configs
+CMakeUserPresets.json
+.clangd
