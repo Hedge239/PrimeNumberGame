@@ -4,7 +4,7 @@
 #include <atomic>
 #include <unordered_set>
 
-#define DEF_MALWARE_MODE 1
+#define DEF_WIZARD_MODE 1
 
 #define COLOR_RESET "\033[0m"
 #define RED "\033[31m"
@@ -245,7 +245,7 @@ int main()
 
     // Print rules
     clearTerminal();
-    if(DEF_MALWARE_MODE)
+    if(DEF_WIZARD_MODE)
     {
         printfColor(RED, "!! CAUTION DO NOT CLOSE THIS WINDOW !!\n");
         printf("Failing to follow the previous warning, could result in loss of soul \n");
